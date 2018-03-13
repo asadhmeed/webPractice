@@ -1,1 +1,1 @@
-# webPractice
+# project for practecing purposes
