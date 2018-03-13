@@ -1,0 +1,29 @@
+@import url('menu.css');
+@import url('background.css');
+
+
+#clear{
+    clear: both;
+}
+
+#teacher{
+text-align: center;
+height: 30%;
+width: 40%;
+}
+
+#wing-chun-school-image{
+float: initial;
+height: 50%;
+width: 70%;
+}
+
+.centered{
+    text-align: center;
+}
+#description{
+    
+    color: white
+}
+
+

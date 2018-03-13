@@ -1,8 +1,9 @@
 package com.asad.web;
 
 import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
-@ApplicationPath("/")
-public class WingChunRestApp {
+@ApplicationPath("/rest")
+public class WingChunRestApp extends Application{
 
 }

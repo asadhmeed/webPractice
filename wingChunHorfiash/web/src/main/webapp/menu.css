@@ -1,0 +1,65 @@
+
+#list-menu  li{
+
+    display: inline;
+    
+padding: 0 5px 0 5px;
+
+
+
+}
+.menu_text{
+font-size: 24;
+	}
+
+#list-menu a:link{
+text-decoration: none;
+}
+#list-menu a:hover{
+text-decoration: underline;
+}
+
+#nav{
+    float:left;
+    max-width: 450px;
+    padding-left: 10%;
+     
+  
+}
+.clear-both{
+    clear: both;
+}
+#h1-head{
+   color: brown;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   
+   float:left;
+   margin: 0;
+   padding: 0;
+}
+#h1-head h1{
+    margin: 0;
+    padding: 0;
+}
+#subscribe-in{
+    float: left;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 120%;
+    width: 25%;
+}
+#subscribe-btn{
+    float: left;
+    margin-top: 1%;
+    font-size: 120%;
+    font-style: oblique;
+    border-radius: 5%;
+    margin-left: 1%; 
+
+}
+#subscribe-btn:hover{
+    background-color: blue;
+    color: white;
+
+}
+

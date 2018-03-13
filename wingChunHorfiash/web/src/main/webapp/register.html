@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Register page</title>
+        <script type="text/javascript" src="register.js"></script>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <h1> User Registration</h1>
+
+        <div>User Name:</div> <div><input type="text" id="userName" placeholder="Enter User Name">
+        </div><div id="userNot">  
+        </div><br>
+        <div>email:</div> <div><input type="email" id="email" placeholder="Enter Email"></div>
+        <div id="emailNot">
+        </div><br>
+        <div>password:</div><div><input type="password" id="password" placeholder="Enter password"></div>
+        <div id="passwordNot"></div><br>
+        <div>confirm password:</div><div><input type="password" id="vpassword" placeholder="confirm password"></div>
+        <div id="vpasswordNot"></div><br>
+        <button id="register_btn" onclick="userRegister();">register</button>
+    </body>
+</html>
