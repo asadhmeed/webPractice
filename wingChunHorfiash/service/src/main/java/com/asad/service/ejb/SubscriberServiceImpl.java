@@ -23,7 +23,7 @@ public class SubscriberServiceImpl implements SubscriberService {
 	}
 	
 	public boolean findSubscriberByEmail(String email) {
-//		try {
+		try {
 		TypedQuery<SubscriberEntity> query = entityManager.createQuery("select s from SubscriberEntity s "
 				+ "where s.email = :email",SubscriberEntity.class);
 		query.setParameter("email", email);
@@ -31,9 +31,10 @@ public class SubscriberServiceImpl implements SubscriberService {
 			return true;	
 		}
 		
-//		}catch(Exception e) {		
+		}catch(Exception e) {		
 			return false;
-//		}
+		}
+		return false;
 	}
 	
 	@Override
