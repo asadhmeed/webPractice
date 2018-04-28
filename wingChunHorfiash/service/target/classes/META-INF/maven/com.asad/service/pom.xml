@@ -6,7 +6,7 @@
     <version>0.1</version>
   </parent>
   <artifactId>service</artifactId>
-  
+  <packaging>ejb</packaging>
   <build>
 		<plugins>
 			<plugin>

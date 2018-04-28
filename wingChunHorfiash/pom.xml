@@ -15,19 +15,13 @@
 			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<!-- MySQL connector -->
+		<!-- MySQL connector 
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.45</version>
-		</dependency>
-		<!-- Hibernate 5.2.6 Final -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.2.6.Final</version>
-			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
+		
 	</dependencies>
 
 	<build>
